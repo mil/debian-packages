@@ -202,6 +202,8 @@ libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libanyevent-i3-perl
 libanyevent-perl
+libao-common
+libao4
 libapparmor1:amd64
 libapt-inst2.0:amd64
 libapt-pkg5.0:amd64
@@ -210,6 +212,7 @@ libasan2:amd64
 libasound2:amd64
 libasound2-data
 libaspell15:amd64
+libass5:amd64
 libassuan0:amd64
 libasync-interrupt-perl
 libasyncns0:amd64
@@ -229,7 +232,9 @@ libavahi-core7:amd64
 libavahi-glib1:amd64
 libavc1394-0:amd64
 libavcodec57:amd64
+libavfilter6:amd64
 libavformat57:amd64
+libavresample3:amd64
 libavutil55:amd64
 libbdplus0:amd64
 libbind9-140:amd64
@@ -244,6 +249,7 @@ libboost-program-options1.58.0:amd64
 libboost-regex1.58.0:amd64
 libboost-system1.58.0:amd64
 libboost-thread1.58.0:amd64
+libbs2b0:amd64
 libbsd0:amd64
 libbz2-1.0:amd64
 libc-bin
@@ -330,11 +336,13 @@ libfile-fcntllock-perl
 libfile-listing-perl
 libfile-mimeinfo-perl
 libflac8:amd64
+libflite1:amd64
 libfont-afm-perl
 libfontconfig1:amd64
 libfontembed1:amd64
 libfontenc1:amd64
 libfreetype6:amd64
+libfribidi0:amd64
 libfuse2:amd64
 libgbm1:amd64
 libgc1c2:amd64
@@ -536,6 +544,7 @@ libpcre2-32-0:amd64
 libpcre3:amd64
 libpcsclite1:amd64
 libperl5.22:amd64
+libpiano0:amd64
 libpipeline1:amd64
 libpixman-1-0:amd64
 libpng16-16:amd64
@@ -544,6 +553,7 @@ libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
 libpoppler61:amd64
 libpopt0:amd64
+libpostproc54:amd64
 libprocps5:amd64
 libproxy1v5:amd64
 libpsl0:amd64
@@ -578,6 +588,7 @@ librest-0.7-0:amd64
 librsvg2-2:amd64
 librsvg2-common:amd64
 librtmp1:amd64
+librubberband2:amd64
 libruby2.3:amd64
 libsamplerate0:amd64
 libsane:amd64
@@ -607,6 +618,7 @@ libsnappy1v5:amd64
 libsndfile1:amd64
 libsnmp-base
 libsnmp30:amd64
+libsodium18:amd64
 libsoup-gnome2.4-1:amd64
 libsoup2.4-1:amd64
 libsoxr0:amd64
@@ -623,6 +635,7 @@ libstdc++6:amd64
 libsub-name-perl
 libswitch-perl
 libswresample2:amd64
+libswscale4:amd64
 libsystemd0:amd64
 libtag1v5:amd64
 libtag1v5-vanilla:amd64
@@ -747,6 +760,7 @@ libxxf86dga1:amd64
 libxxf86vm1:amd64
 libyajl2:amd64
 libyaml-0-2:amd64
+libzmq5:amd64
 libzvbi-common
 libzvbi0:amd64
 linux-base
@@ -767,6 +781,7 @@ manpages-dev
 mawk
 mesa-va-drivers:amd64
 mime-support
+mlocate
 modemmanager
 mount
 mscompress
@@ -790,12 +805,14 @@ openssl
 os-prober
 p11-kit
 p11-kit-modules:amd64
+p7zip
 passwd
 patch
 pciutils
 perl
 perl-base
 perl-modules-5.22
+pianobar
 pinentry-gnome3
 policykit-1
 poppler-data
@@ -933,6 +950,7 @@ ttf-dejavu-extra
 tzdata
 ucf
 udev
+unrar
 unzip
 update-inetd
 usb-modeswitch
@@ -979,6 +997,7 @@ xfonts-75dpi
 xfonts-base
 xfonts-encodings
 xfonts-scalable
+xfonts-terminus
 xfonts-utils
 xinit
 xkb-data
